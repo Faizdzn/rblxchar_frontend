@@ -1,7 +1,7 @@
 <template>
     <div class="group-flex-phone" style="gap: 50px">
       <div class="group-flex-col f-1" style="gap: 20px">
-        <span class="title">Welcome to Roblox Item Downloader!</span>
+        <span class="title">Roblox Item Downloader!</span>
         <span class="desc">This page used for downloading the roblox catalog items (only 3D items), and you can use this as a props for your gfx. You may ask where is the item id, here the example roblox item url: 'https://www.roblox.com/catalog/1000'
           
           the '1000' number is the id, you can copy the id and use it in here for downloading the items.
