@@ -1,4 +1,4 @@
 {
-  "apiUrl": "http://localhost:3000",
+  "apiUrl": "https://char-api.faizda.my.id",
   "appName": "Faizdzn Character Downloader"
 }
