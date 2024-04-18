@@ -8,12 +8,11 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="fz-white"></div>
     <div class="group-flex-row">
       <RouterLink class="btn nav-btn" to="/">
-        <i class="fas fa-download"></i>
+        <i class="fas fa-user"></i>
       </RouterLink>
-      <!--<RouterLink class="btn donate-btn" to="/donate">-->
-      <!--  <i class="fas fa-coins"></i>-->
-      <!--  Donate-->
-      <!--</RouterLink>-->
+      <RouterLink class="btn nav-btn" to="/item">
+        <i class="fas fa-hat-cowboy"></i>
+      </RouterLink>
     </div>
   </div>
   

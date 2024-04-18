@@ -31,7 +31,8 @@
           await downloadFile(`/api/v1/user/download3d?u=${this.username}`, `user_${this.username}.zip`)
         } catch(err) {
           //swalToast("error", err['message'])
-          await swalToast("error", "Something went wrong! (user didnt exist or not found!")
+          console.error(err)
+          await swalToast("error", "Something went wrong! (user didnt exist or maybe there's an error!")
         }
       }
     }
