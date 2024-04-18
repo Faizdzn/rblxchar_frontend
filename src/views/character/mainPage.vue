@@ -27,10 +27,11 @@
     methods: {
       async downloadUser() {
         try {
+          await swalToast("warning", "Please wait!");
           await downloadFile(`/api/v1/user/download3d?u=${this.username}`, `user_${this.username}.zip`)
         } catch(err) {
           //swalToast("error", err['message'])
-          swalToast("error", "Something went wrong! (user didnt exist or not found!")
+          await swalToast("error", "Something went wrong! (user didnt exist or not found!")
         }
       }
     }

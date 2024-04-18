@@ -55,7 +55,7 @@
           
           this.groupData = data['data'];
         } catch(err) {
-          swalToast("error", err.response.data['error']['message'])
+          await swalToast("error", err.response.data['error']['message'])
         }
       }
     }
