@@ -1,42 +1,8 @@
-# rblxchar_frontend
+# Roblox Character Downloader Website
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome developers, congrats for your today first task woohoo!
+Ok, lets go to the point. Make sure you followed this steps correctly for setup the website and run it to your own localhost:
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# rblxchar_frontend
+1. run `npm install`.
+2. After doing the instalation, you can run the client application on dev mode with run `npm run dev`.
+3. ...and now you're done! You can start view the frontend on `https://localhost:5173/`.
