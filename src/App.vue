@@ -10,10 +10,10 @@ import HelloWorld from './components/HelloWorld.vue'
       <RouterLink class="btn nav-btn" to="/">
         <i class="fas fa-download"></i>
       </RouterLink>
-      <RouterLink class="btn donate-btn" to="/donate">
-        <i class="fas fa-coins"></i>
-        Donate
-      </RouterLink>
+      <!--<RouterLink class="btn donate-btn" to="/donate">-->
+      <!--  <i class="fas fa-coins"></i>-->
+      <!--  Donate-->
+      <!--</RouterLink>-->
     </div>
   </div>
   

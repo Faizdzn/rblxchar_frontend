@@ -8,11 +8,11 @@ const router = createRouter({
       name: 'main',
       component: () => import ('@/views/character/mainPage.vue')
     },
-    {
-      path: '/donate',
-      name: 'donate',
-      component: () => import ('@/views/donatePage.vue')
-    },
+    // {
+    //   path: '/discord',
+    //   name: 'donate',
+    //   component: () => import ('@/views/donatePage.vue')
+    // },
     // {
     //   path: '/character/:username',
     //   name: 'download',
