@@ -4,17 +4,17 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div class="navbar">
+  <navbar>
     <div class="fz-white"></div>
-    <div class="group-flex-row">
-      <RouterLink class="btn nav-btn" to="/">
+    <navbtn class="group-flex-row">
+      <RouterLink to="/">
         <i class="fas fa-user"></i>
       </RouterLink>
-      <RouterLink class="btn nav-btn" to="/item">
+      <RouterLink to="/item">
         <i class="fas fa-hat-cowboy"></i>
       </RouterLink>
-    </div>
-  </div>
+    </navbtn>
+  </navbar>
   
   <RouterView style="margin-top: 50px"/>
 </template>

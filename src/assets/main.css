@@ -40,7 +40,7 @@ body {
   gap: 5px;
 }
 
-.navbar {
+navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,10 +105,20 @@ body {
   border-width: 1px;
 }
 
-.nav-btn {
+navbar > navbtn > a {
+  font-family: Inter;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  
   background: var(--white-col);
   opacity: 100%;
   color: var(--dark-col);
+  transition: 0.3s;
 }
 
 .router-link-active, .btn:hover {
