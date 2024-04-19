@@ -35,7 +35,7 @@
         } catch(err) {
           //swalToast("error", err['message'])
           console.error(err)
-          await swalToast("error", "Something went wrong! (user didnt exist or maybe there's an error!")
+          await swalToast("error", "Something went wrong! (item didnt exist or maybe there's an error!")
         }
       }
     }
