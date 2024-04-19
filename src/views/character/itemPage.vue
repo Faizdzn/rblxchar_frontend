@@ -11,7 +11,7 @@
         <div class="group-flex-row">
           <input type="number" placeholder="Type the roblox item id in here! (Only for 3D items)" v-model="item_id">
           <button id="downloadBtn" @click.prevent="downloadItem()">
-            <i class="fas fa-download"></i>
+            <i class="mdi mdi-download"></i>
           </button>
         </div>
       </div>

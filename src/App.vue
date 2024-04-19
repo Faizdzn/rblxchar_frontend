@@ -8,10 +8,10 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="fz-white"></div>
     <navbtn class="group-flex-row">
       <RouterLink to="/">
-        <i class="fas fa-user"></i>
+        <i class="mdi mdi-account"></i>
       </RouterLink>
       <RouterLink to="/item">
-        <i class="fas fa-hat-cowboy"></i>
+        <i class="mdi mdi-hat-fedora"></i>
       </RouterLink>
     </navbtn>
   </navbar>

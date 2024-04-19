@@ -1,6 +1,6 @@
 import './assets/main.css'
 import './assets/logo/logo.css'
-import './assets/font-awesome.js'
+import '@mdi/font/css/materialdesignicons.min.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
