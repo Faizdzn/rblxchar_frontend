@@ -9,8 +9,8 @@
       </div>
       <div class="group-flex-col f-1">
         <div class="group-flex-row">
-          <input type="number" placeholder="Type the roblox item id in here! (Only for 3D items)" v-model="item_id">
-          <button id="downloadBtn" @click.prevent="downloadItem()">
+          <input type="number" id="inputType" placeholder="Type the roblox item id in here! (Only for 3D items)" v-model="item_id">
+          <button id="downloadBtn" aria-labelledby="inputType" @click.prevent="downloadItem()">
             <i class="mdi mdi-download"></i>
           </button>
         </div>
