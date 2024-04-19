@@ -7,7 +7,7 @@
       <div class="group-flex-col f-1">
         <div class="group-flex-row">
           <input id="inputType" type="text" placeholder="Type your Roblox username here!" v-model="username">
-          <button id="downloadBtn" aria-labelledby="inputType" @click.prevent="downloadUser()">
+          <button id="downloadBtn" aria-label="inputType" @click.prevent="downloadUser()">
             <i class="mdi mdi-download"></i>
           </button>
         </div>
