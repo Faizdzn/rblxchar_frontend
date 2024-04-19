@@ -72,7 +72,7 @@ navbar {
   padding: 20px;
 }
 
-.btn {
+button {
   font-family: Inter;
   text-decoration: none;
   color: var(--white-col);
@@ -121,7 +121,7 @@ navbar > navbtn > a {
   transition: 0.3s;
 }
 
-.router-link-active, .btn:hover {
+.router-link-active, button:hover {
   opacity: 50%;
 }
 
